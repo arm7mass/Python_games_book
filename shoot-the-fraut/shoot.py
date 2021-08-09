@@ -1,4 +1,11 @@
 from random import randint
+from pgzero.builtins import Actor, animate, keyboard
+
+import pygame as pg
+    
+    
+screen = pg.display.set_mode((640, 480))
+
 
 apple = Actor("apple")
 
