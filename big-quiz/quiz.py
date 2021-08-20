@@ -1,7 +1,4 @@
-import random
-from random import randint
-from pgzero import animation
-from pgzero.builtins import Actor, animate, keyboard
+
 import pygame as pg
 from pygame.time import Clock
 
@@ -88,4 +85,4 @@ def update_time_left():
     else:
         game_over()
 
-Clock.schedule(update_time_left, 1.0)
+clock.schedule(update_time_left, 1.0)
